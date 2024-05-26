@@ -3,21 +3,93 @@
     margin: 0%;
 }
 
+aside a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: bisque;
+}
+
+.fa-solid{
+
+    margin-top: 20px;
+    margin-left: 10PX;
+}
+
+nav h1{
+    text-align: center;
+    color: bisque;
+    font-size: 30px;
+}
+
+.yanaconas
+{
+    height: 200px;
+    width: 430px;
+    border: 3px solid rgb(117, 215, 51);
+    
+}
+
+.parqueCafe{
+    height: 200px;
+    width: 430px;
+    border: 3px solid rgb(117, 215, 51);
+}
+
+.tardesCalenas{
+    height: 200px;
+    width: 430px;
+    border: 3px solid rgb(117, 215, 51);
+  
+}
+
+.ukumari{
+    height: 200px;
+    width: 430px;
+    border: 3px solid rgb(117, 215, 51);
+}
+
+.sanCipriano{
+    height: 200px;
+    width: 430px;
+    border: 3px solid rgb(117, 215, 51);
+}
+
+.termales{
+    height: 200px;
+    width: 430px;
+    border: 3px solid rgb(117, 215, 51);
+}
+footer h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fa-brands{
+    margin-bottom: 10px;
+
+}
+
 .contenedor{
 
-    height:100%;
+    height:115%;
     background-color: aqua;
     display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 3fr 2fr 2fr 2fr 0.8fr;
+    grid-template-columns: 0.4fr 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 0.8fr;
     grid-gap: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
     grid-template-areas: 'nav nav nav nav'
                          'aside main main main'
-                         'aside contenido1 contenido1 contenido1'
-                         'aside contenido2 contenido2 contenido2'
-                         'aside contenido3 contenido3 contenido3'
+                         'aside contenido1 contenido2 contenido3'
+                         'aside contenido4 contenido5 contenido6'
                          'aside footer footer footer';
 }
 
@@ -44,6 +116,18 @@
 .contenido3{
     grid-area: contenido3;
     background-color: coral;
+}
+.contenido4{
+    grid-area: contenido4;
+    background-color: rgb(77, 128, 26);
+}
+.contenido5{
+    grid-area: contenido5;
+    background-color: rgb(156, 207, 209);
+}
+.contenido6{
+    grid-area: contenido6;
+    background-color: rgb(125, 45, 15);
 }
 .footer{
     grid-area: footer;
