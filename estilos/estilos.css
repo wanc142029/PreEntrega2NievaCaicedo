@@ -30,7 +30,7 @@ nav h1{
 .yanaconas
 {
     height: 200px;
-    width: 430px;
+    width: 460px;
     border: 3px solid rgb(117, 215, 51);
     
 }
@@ -50,11 +50,12 @@ nav h1{
 
 .ukumari{
     height: 200px;
-    width: 430px;
+    width: 460px;
     border: 3px solid rgb(117, 215, 51);
 }
 
 .sanCipriano{
+    
     height: 200px;
     width: 430px;
     border: 3px solid rgb(117, 215, 51);
@@ -93,6 +94,7 @@ footer h2{
                          'aside footer footer footer';
 }
 
+
 .nav{
     grid-area: nav;
     background-color: blue;
@@ -106,30 +108,250 @@ footer h2{
     background-color: blueviolet;
 }
 .contenido1{
+    display: flex;
     grid-area: contenido1;
     background-color: chartreuse;
+    justify-content: center;
+    align-items: center;
 }
 .contenido2{
+    display: flex;
     grid-area: contenido2;
     background-color: cadetblue;
+    justify-content: center;
+    
 }
 .contenido3{
+    display: flex;
     grid-area: contenido3;
     background-color: coral;
+    justify-content: center;
 }
 .contenido4{
+    display: flex;
+    justify-content: center;
     grid-area: contenido4;
     background-color: rgb(77, 128, 26);
 }
 .contenido5{
+    display: flex;
+    justify-content: center;
     grid-area: contenido5;
     background-color: rgb(156, 207, 209);
 }
 .contenido6{
+    display: flex;
+    justify-content: center;
     grid-area: contenido6;
     background-color: rgb(125, 45, 15);
 }
 .footer{
     grid-area: footer;
     background-color: rgb(255, 247, 0);
+}
+
+
+@media (max-width:480px) {
+    
+    .contenedor{
+    height:300%;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
+    grid-gap: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    grid-template-areas: 'nav'
+                         'aside'
+                         'main'
+                         'contenido1'
+                         'contenido2'
+                         'contenido3'
+                         'contenido4'
+                         'contenido5'
+                         'contenido6'
+                         'footer';
+    }
+
+
+    .yanaconas
+{
+    height: 200px;
+    width: 470px;
+    border: 3px solid rgb(117, 215, 51);
+    
+}
+
+.parqueCafe{
+    height: 200px;
+    width: 470px;
+    border: 3px solid rgb(117, 215, 51);
+}
+
+.tardesCalenas{
+    height: 200px;
+    width: 470px;
+    border: 3px solid rgb(117, 215, 51);
+  
+}
+
+.ukumari{
+    height: 200px;
+    width: 470px;
+    border: 3px solid rgb(117, 215, 51);
+}
+
+.sanCipriano{
+    
+    height: 200px;
+    width: 470px;
+    border: 3px solid rgb(117, 215, 51);
+}
+
+.termales{
+    height: 200px;
+    width: 470px;
+    border: 3px solid rgb(117, 215, 51);
+}
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+
+    .contenedor{
+    height:100%;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
+    grid-gap: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    grid-template-areas: 'nav nav'
+                         'aside aside'
+                         'main main'
+                         'contenido1 contenido1'
+                         'contenido2 contenido2'
+                         'contenido3 contenido3'
+                         'contenido4 contenido4'
+                         'contenido5 contenido5'
+                         'contenido6 contenido6'
+                         'footer footer';
+                         
+    }
+
+
+
+   aside {
+    font-size: px;
+   }
+
+   .yanaconas
+    {
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(117, 215, 51);
+        
+    }
+    
+    .parqueCafe{
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(117, 215, 51);
+    }
+    
+    .tardesCalenas{
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(117, 215, 51);
+      
+    }
+    
+    .ukumari{
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(117, 215, 51);
+    }
+    
+    .sanCipriano{
+        
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(117, 215, 51);
+    }
+    
+    .termales{
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(117, 215, 51);
+    }
+
+}
+@media (min-width:769px) and (max-width:1279px) {
+
+    .contenedor{
+    height:100%;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
+    grid-gap: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    grid-template-areas: 'nav nav nav'
+                         'aside main main'
+                         'aside contenido1 contenido1'
+                         'aside contenido2 contenido2'
+                         'aside contenido3 contenido3'
+                         'aside contenido4 contenido4'
+                         'aside contenido5 contenido5'
+                         'aside contenido6 contenido6'
+                         'aside footer footer';
+                         
+    }
+
+    .yanaconas
+    {
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(117, 215, 51);
+        
+    }
+    
+    .parqueCafe{
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(117, 215, 51);
+    }
+    
+    .tardesCalenas{
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(117, 215, 51);
+      
+    }
+    
+    .ukumari{
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(117, 215, 51);
+    }
+    
+    .sanCipriano{
+        
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(117, 215, 51);
+    }
+    
+    .termales{
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(117, 215, 51);
+    }
+
 }
