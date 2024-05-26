@@ -2,23 +2,54 @@
     padding: 0%;
     margin: 0%;
 }
+h1{
+   color:rgb(255, 255, 255);
+}
+
+body{
+    background-image: url(https://img.freepik.com/fotos-premium/resumen-fondo-diseno-imagenes-fondos-pantalla-ai-generado_643360-83016.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+h2{
+    color: rgb(255, 253, 251); 
+}
 
 aside a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+
+    
+}
+
+.iconos{
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    justify-content: center;
 }
 li{
     display: inline-block;
     float: right;
     margin-right: 10px;
     margin-top: 10px;
-    color: bisque;
+    color: rgb(255, 255, 255)
 }
 
 .fa-solid{
 
     margin-top: 20px;
     margin-left: 10PX;
+}
+
+.fa-brands{
+    margin:5px;
 }
 
 nav h1{
@@ -31,40 +62,40 @@ nav h1{
 {
     height: 200px;
     width: 460px;
-    border: 3px solid rgb(117, 215, 51);
+    border: 3px solid rgb(0, 0, 0);
     
 }
 
 .parqueCafe{
     height: 200px;
     width: 430px;
-    border: 3px solid rgb(117, 215, 51);
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .tardesCalenas{
     height: 200px;
     width: 430px;
-    border: 3px solid rgb(117, 215, 51);
+    border: 3px solid rgb(0, 0, 0);
   
 }
 
 .ukumari{
     height: 200px;
     width: 460px;
-    border: 3px solid rgb(117, 215, 51);
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .sanCipriano{
     
     height: 200px;
     width: 430px;
-    border: 3px solid rgb(117, 215, 51);
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .termales{
     height: 200px;
     width: 430px;
-    border: 3px solid rgb(117, 215, 51);
+    border: 3px solid rgb(0, 0, 0);
 }
 footer h2{
     text-align: center;
@@ -79,7 +110,6 @@ footer h2{
 .contenedor{
 
     height:115%;
-    background-color: aqua;
     display: grid;
     grid-template-columns: 0.4fr 1fr 1fr 1fr;
     grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 0.8fr;
@@ -97,57 +127,52 @@ footer h2{
 
 .nav{
     grid-area: nav;
-    background-color: blue;
+   
 }
 .aside{
     grid-area: aside;
-    background-color: brown;
+   
 }
 .main{
     grid-area: main;
-    background-color: blueviolet;
+   
 }
 .contenido1{
     display: flex;
     grid-area: contenido1;
-    background-color: chartreuse;
     justify-content: center;
     align-items: center;
 }
 .contenido2{
     display: flex;
     grid-area: contenido2;
-    background-color: cadetblue;
     justify-content: center;
     
 }
 .contenido3{
     display: flex;
     grid-area: contenido3;
-    background-color: coral;
     justify-content: center;
 }
 .contenido4{
     display: flex;
     justify-content: center;
     grid-area: contenido4;
-    background-color: rgb(77, 128, 26);
 }
 .contenido5{
     display: flex;
     justify-content: center;
     grid-area: contenido5;
-    background-color: rgb(156, 207, 209);
 }
 .contenido6{
     display: flex;
     justify-content: center;
     grid-area: contenido6;
-    background-color: rgb(125, 45, 15);
+
 }
 .footer{
     grid-area: footer;
-    background-color: rgb(255, 247, 0);
+    
 }
 
 
@@ -155,7 +180,6 @@ footer h2{
     
     .contenedor{
     height:300%;
-    background-color: aqua;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
@@ -222,7 +246,6 @@ footer h2{
 
     .contenedor{
     height:100%;
-    background-color: aqua;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
@@ -294,7 +317,7 @@ footer h2{
 
     .contenedor{
     height:100%;
-    background-color: aqua;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
