@@ -2,10 +2,12 @@
     padding: 0%;
     margin: 0%;
 }
-h1{
-   color:rgb(255, 255, 255);
-}
 
+.titulo{
+
+    color: #f9d861;
+
+}
 body{
     background-image: url(https://img.freepik.com/fotos-premium/resumen-fondo-diseno-imagenes-fondos-pantalla-ai-generado_643360-83016.jpg);
     background-size: cover;
@@ -18,12 +20,13 @@ p{
     text-align: justify;
 }
 h2{
-    color: rgb(255, 253, 251); 
+    color: #f9d861;
 }
 
 aside a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    
 
     
 }
@@ -39,7 +42,13 @@ li{
     float: right;
     margin-right: 10px;
     margin-top: 10px;
-    color: rgb(255, 255, 255)
+    color: #61f984;
+
+}
+li a{
+    text-decoration: none;
+    color: #61f984;
+    font-size: 20px;
 }
 
 .fa-solid{
@@ -109,9 +118,9 @@ footer h2{
 
 .contenedor{
 
-    height:115%;
+    height:100%;
     display: grid;
-    grid-template-columns: 0.4fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 0.8fr;
     grid-gap: 3px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -204,40 +213,40 @@ footer h2{
 {
     height: 200px;
     width: 470px;
-    border: 3px solid rgb(117, 215, 51);
+    border: 3px solid rgb(0, 0, 0);
     
 }
 
 .parqueCafe{
     height: 200px;
     width: 470px;
-    border: 3px solid rgb(117, 215, 51);
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .tardesCalenas{
     height: 200px;
     width: 470px;
-    border: 3px solid rgb(117, 215, 51);
+    border: 3px solid rgb(0, 0, 0);
   
 }
 
 .ukumari{
     height: 200px;
     width: 470px;
-    border: 3px solid rgb(117, 215, 51);
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .sanCipriano{
     
     height: 200px;
     width: 470px;
-    border: 3px solid rgb(117, 215, 51);
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .termales{
     height: 200px;
     width: 470px;
-    border: 3px solid rgb(117, 215, 51);
+    border: 3px solid rgb(0, 0, 0);
 }
 
 }
@@ -276,48 +285,47 @@ footer h2{
     {
         height: 200px;
         width: 500px;
-        border: 3px solid rgb(117, 215, 51);
+        border: 3px solid rgb(0, 0, 0);
         
     }
     
     .parqueCafe{
         height: 200px;
         width: 500px;
-        border: 3px solid rgb(117, 215, 51);
+        border: 3px solid rgb(0, 0, 0);
     }
     
     .tardesCalenas{
         height: 200px;
         width: 500px;
-        border: 3px solid rgb(117, 215, 51);
+        border: 3px solid rgb(0, 0, 0);
       
     }
     
     .ukumari{
         height: 200px;
         width: 500px;
-        border: 3px solid rgb(117, 215, 51);
+        border: 3px solid rgb(0, 0, 0);
     }
     
     .sanCipriano{
         
         height: 200px;
         width: 500px;
-        border: 3px solid rgb(117, 215, 51);
+        border: 3px solid rgb(0, 0, 0);
     }
     
     .termales{
         height: 200px;
         width: 500px;
-        border: 3px solid rgb(117, 215, 51);
+        border: 3px solid rgb(0, 0, 0);
     }
 
 }
-@media (min-width:769px) and (max-width:1279px) {
+@media (min-width:769px) and (max-width:1278px) {
 
     .contenedor{
     height:100%;
-    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
@@ -341,40 +349,141 @@ footer h2{
     {
         height: 200px;
         width: 500px;
-        border: 3px solid rgb(117, 215, 51);
+        border: 3px solid rgb(0, 0, 0);
         
     }
     
     .parqueCafe{
         height: 200px;
         width: 500px;
-        border: 3px solid rgb(117, 215, 51);
+        border: 3px solid rgb(0, 0, 0);
     }
     
     .tardesCalenas{
         height: 200px;
         width: 500px;
-        border: 3px solid rgb(117, 215, 51);
+        border: 3px solid rgb(0, 0, 0);
       
     }
     
     .ukumari{
         height: 200px;
         width: 500px;
-        border: 3px solid rgb(117, 215, 51);
+        border: 3px solid rgb(0, 0, 0);
     }
     
     .sanCipriano{
         
         height: 200px;
         width: 500px;
-        border: 3px solid rgb(117, 215, 51);
+        border: 3px solid rgb(0, 0, 0);
     }
     
     .termales{
         height: 200px;
         width: 500px;
-        border: 3px solid rgb(117, 215, 51);
+        border: 3px solid rgb(0, 0, 0);
     }
 
+}
+
+@media (min-width:1278px) and (max-width:1496px) {
+
+    .contenedor{
+        height:100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 3fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
+        grid-gap: 3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+        grid-template-areas: 'nav nav nav'
+                             'aside aside aside'
+                             'main main main'
+                             'contenido1 contenido1 contenido1'
+                             'contenido2 contenido2 contenido2'
+                             'contenido3 contenido3 contenido3'
+                             'contenido4 contenido4 contenido4'
+                             'contenido5 contenido5 contenido5'
+                             'contenido6 contenido6 contenido6'
+                             'footer footer footer';
+}
+
+.yanaconas
+{
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+
+.parqueCafe{
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.tardesCalenas{
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+  
+}
+
+.ukumari{
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.sanCipriano{
+    
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.termales{
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+}
+}
+
+.container{
+    height:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 3fr 2fr 2fr 0.8fr;
+    grid-gap: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    grid-template-areas: 'nav nav nav nav'
+                         'main main main main'
+                         'contenido7 contenido9  contenido9 contenido11'
+                         'contenido8 contenido10  contenido10 contenido12'
+                         'footer footer footer footer';
+
+
+}
+
+.contenido7{
+    grid-area: contenido7;
+}
+.contenido8{
+    grid-area: contenido8;
+}
+.contenido9{
+    grid-area: contenido9;
+}
+.contenido10{
+    grid-area: contenido10;
+}
+.contenido11{
+    grid-area: contenido11;
+}
+.contenido12{
+    grid-area: contenido12;
 }
