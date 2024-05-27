@@ -67,6 +67,26 @@ nav h1{
     font-size: 30px;
 }
 
+.pianguita{
+    width: 260px;
+    height: 180px;
+    border: 3px solid rgb(0, 0, 0);   
+}
+
+.calima{
+    width: 260px;
+    height: 180px;
+    border: 3px solid rgb(0, 0, 0); 
+
+}
+.nevado{
+
+    width: 260px;
+    height: 180px;
+    border: 3px solid rgb(0, 0, 0); 
+
+}
+
 .yanaconas
 {
     height: 200px;
@@ -249,6 +269,35 @@ footer h2{
     border: 3px solid rgb(0, 0, 0);
 }
 
+h6{
+    margin-left: 12px;
+}
+
+.pianguita{
+    height: 200px;
+    width: 470px;
+    border: 3px solid rgb(0, 0, 0);
+    margin-left: 12px;
+}
+
+.calima{
+    height: 200px;
+    width: 470px;
+    border: 3px solid rgb(0, 0, 0);
+    margin-left: 12px;
+
+}
+.nevado{
+
+    height: 200px;
+    width: 470px;
+    border: 3px solid rgb(0, 0, 0); 
+    margin-left: 12px;
+
+}
+
+
+
 }
 
 @media (min-width:481px) and (max-width:768px) {
@@ -320,6 +369,35 @@ footer h2{
         width: 500px;
         border: 3px solid rgb(0, 0, 0);
     }
+
+
+    h6{
+        margin-left: 130px;
+    }
+    
+    .pianguita{
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(0, 0, 0);
+        margin-left: 130px;
+    }
+    
+    .calima{
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(0, 0, 0);
+        margin-left: 130px;
+    
+    }
+    .nevado{
+    
+        height: 200px;
+        width: 500px;
+        border: 3px solid rgb(0, 0, 0); 
+        margin-left: 130px;
+    
+    }
+    
 
 }
 @media (min-width:769px) and (max-width:1278px) {
@@ -451,39 +529,30 @@ footer h2{
 }
 }
 
-.container{
-    height:100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.8fr 3fr 2fr 2fr 0.8fr;
-    grid-gap: 3px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
-    grid-template-areas: 'nav nav nav nav'
-                         'main main main main'
-                         'contenido7 contenido9  contenido9 contenido11'
-                         'contenido8 contenido10  contenido10 contenido12'
-                         'footer footer footer footer';
 
 
+H6{
+    color: white;
+    
 }
 
-.contenido7{
-    grid-area: contenido7;
+
+
+.castillo{
+    width: 500px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
 }
-.contenido8{
-    grid-area: contenido8;
+
+.amazonas{
+    width: 500px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
 }
-.contenido9{
-    grid-area: contenido9;
-}
-.contenido10{
-    grid-area: contenido10;
-}
-.contenido11{
-    grid-area: contenido11;
-}
-.contenido12{
-    grid-area: contenido12;
+.guajira{
+    width: 500px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
 }
