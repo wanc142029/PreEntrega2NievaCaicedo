@@ -9,6 +9,19 @@
 
 }
 
+.fa-solid {
+    color: #61f984;
+}
+
+.fa-brands{
+    color: white;
+
+}
+
+.fa-circle-info{
+    color: #f9d861;
+}
+
 .castillo{
     width: 380px;
     height: 300px;
@@ -228,6 +241,26 @@ footer h2{
     grid-area: contenido6;
 
 }
+
+.titulo{
+    justify-content: center;
+}
+
+.caja1{
+    display: flex;
+    justify-content: center;
+}
+
+.caja2{
+    display: flex;
+    justify-content: center;
+}
+
+.caja3{
+    display: flex;
+    justify-content: center;
+}
+
 .footer{
     grid-area: footer;
     
@@ -261,40 +294,44 @@ footer h2{
     .yanaconas
 {
     height: 200px;
-    width: 470px;
+    width: 440px;
     border: 3px solid rgb(0, 0, 0);
     
 }
 
+p{
+    font-size: 10px;
+}
+
 .parqueCafe{
     height: 200px;
-    width: 470px;
+    width: 440px;
     border: 3px solid rgb(0, 0, 0);
 }
 
 .tardesCalenas{
     height: 200px;
-    width: 470px;
+    width: 440px;
     border: 3px solid rgb(0, 0, 0);
   
 }
 
 .ukumari{
     height: 200px;
-    width: 470px;
+    width: 440px;
     border: 3px solid rgb(0, 0, 0);
 }
 
 .sanCipriano{
     
     height: 200px;
-    width: 470px;
+    width: 440px;
     border: 3px solid rgb(0, 0, 0);
 }
 
 .termales{
     height: 200px;
-    width: 470px;
+    width: 440px;
     border: 3px solid rgb(0, 0, 0);
 }
 
@@ -306,22 +343,21 @@ h6{
     height: 200px;
     width: 470px;
     border: 3px solid rgb(0, 0, 0);
-    margin-left: 12px;
+    
 }
 
 .calima{
     height: 200px;
     width: 470px;
     border: 3px solid rgb(0, 0, 0);
-    margin-left: 12px;
-
+   
 }
 .nevado{
 
     height: 200px;
     width: 470px;
     border: 3px solid rgb(0, 0, 0); 
-    margin-left: 12px;
+    
 
 }
 
@@ -380,83 +416,81 @@ h6{
    .yanaconas
     {
         height: 200px;
-        width: 500px;
+        width: 440px;
         border: 3px solid rgb(0, 0, 0);
         
     }
     
     .parqueCafe{
         height: 200px;
-        width: 500px;
+        width: 440px;
         border: 3px solid rgb(0, 0, 0);
     }
     
     .tardesCalenas{
         height: 200px;
-        width: 500px;
+        width: 440px;
         border: 3px solid rgb(0, 0, 0);
       
     }
     
     .ukumari{
         height: 200px;
-        width: 500px;
+        width: 440px;
         border: 3px solid rgb(0, 0, 0);
     }
     
     .sanCipriano{
         
         height: 200px;
-        width: 500px;
+        width: 440px;
         border: 3px solid rgb(0, 0, 0);
     }
     
     .termales{
         height: 200px;
-        width: 500px;
+        width: 440px;
         border: 3px solid rgb(0, 0, 0);
     }
 
 
-    h6{
-        margin-left: 130px;
-    }
+  
     
     .pianguita{
         height: 200px;
-        width: 500px;
+        width: 440px;
         border: 3px solid rgb(0, 0, 0);
-        margin-left: 130px;
+        
     }
     
     .calima{
         height: 200px;
-        width: 500px;
+        width: 440px;
         border: 3px solid rgb(0, 0, 0);
-        margin-left: 130px;
+        
     
     }
     .nevado{
     
         height: 200px;
-        width: 500px;
+        width: 440px;
         border: 3px solid rgb(0, 0, 0); 
-        margin-left: 130px;
+        
     
     }
     .castillo{
-        width: 500px;
+        width: 440px;
         height: 200px;
         border: 3px solid rgb(0, 0, 0);
     }
     
     .amazonas{
-        width: 500px;
+        width: 440px;
         height: 200px;
         border: 3px solid rgb(0, 0, 0);
     }
     .guajira{
-        width: 500px;
+        width: 440px;
         height: 200px;
         border: 3px solid rgb(0, 0, 0);
     }
@@ -631,14 +665,14 @@ h6{
     height: 500px;
     width: 900px;
     border: 3px solid rgb(0, 0, 0);
-    margin-left: 300px;
+ 
 }
 
 .calima{
     height: 500px;
     width: 900px;
     border: 3px solid rgb(0, 0, 0);
-    margin-left: 300px;
+    
 
 }
 .nevado{
@@ -646,7 +680,7 @@ h6{
     height: 500px;
     width: 900px;
     border: 3px solid rgb(0, 0, 0); 
-    margin-left: 300px;
+    
 
 }
 H6{
